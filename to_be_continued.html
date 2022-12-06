@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персонажи JOJO</title>
+    <link rel="shortcut icon" href="./images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./images/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/simple-adaptive-slider.min.css">
+    <script src="./scripts/simple-adaptive-slider.min.js"></script>
+    <script src="https://kit.fontawesome.com/ed9b01b5c7.js" crossorigin="anonymous"></script>
+    <script src="./scripts/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navigation" style="position: fixed; top: 0;">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/Jojos-Bizarre-Adventure-Emblem.png" alt="JoJo logo"></a>
+            </div>
+            <div class="navigation__items">
+                <div class="mobile__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="navigation__menu">
+                    <div class="navigation__item"><a href="./index.html">Главная</a></div>
+                    <div class="navigation__item"><a href="./to_be_continued.html">Злодеи JOJO</a></div>
+                    <div class="navigation__item"><a href="./to_be_continued.html">Джобро</a></div>
+                    <div class="navigation__item"><a href="./to_be_continued.html">Фонд Спидвагона</a></div>
+                </div>
+                <div id="close__menu" style="position: fixed; top:0; left:0; z-index: 1; clear: left; width: 100vw; height: 100vh; display: none;"></div>
+            </div>
+            <div class="vol">
+                <i class="fa-solid fa-volume-off nav-icon" id="volume"></i>
+            </div>
+        </nav>
+    </header>
+    <main style="margin-top: 50px;">
+        <p style="text-align: center; font-size: 2em;"><b>Здесь пока ничего нет!</b></p>
+        <img id="no" src="./images/pngfind.com-to-be-continued-meme-1167541.png" alt="To be continued...">
+    </main>
+    <footer class="footer footer_continued">
+        <div class="footer__logo">
+            <a href="./index.html"><img src="./images/Jojos-Bizarre-Adventure-Emblem.png" alt="JoJo logo"></a>
+        </div>
+        <div class="footer__networks">
+            <div class="icons">
+                <a target="_blank" href="https://discordapp.com/users/701766788240769094/"><i class="fa-brands fa-discord"></i></a>
+                <a target="_blank" href="https://t.me/Nicolay_Belchuk"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blank" href="https://vk.com/nicolabelchuck"><i class="fa-brands fa-vk"></i></a>
+            </div>
+            <p>Отдельная благодарность фонду Спидвагона</p>
+        </div>
+    </footer>
+
+    <div class="popup">
+        <div class="popup__content">
+            <p>
+                <i>На данном сайте присутствует звуковое сопровождение для слайдов, в качестве коротких звуковых дорожек.</i> <br> <b>По умолчанию звук <i>отключен.</i></b> <br> <span id="please">Рекомендуем включить звук нажав на иконку в правом верхнем углу.</span> <br> <span id="alert">Внимание!!!</span> <br> <b>При нажатии иконки сразу включиться звуковая дорожка для текущего слайда!</b>
+            </p>
+            <div>
+                <button>Понятно</button>
+            </div>
+        </div>
+    </div>
+    <audio src="./sounds/To Be Continued Sound effect.mp3"></audio>
+    <script src="./scripts/script1.js"></script>
+</body>
+</html>
