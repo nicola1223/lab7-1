@@ -19,6 +19,9 @@ $(function() {
     }
     else {
       $('.navigation__menu').css('left', '');
+      $('.navigation__menu').css('transform', '');
+      $('.navigation__menu').css('transition', '');
+      $('#close__menu').css('display', 'none')
     }
     navigation_top = orig_navigation_top + (($(window).height())/1 - (w_height/1));
   });
