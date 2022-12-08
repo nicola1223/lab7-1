@@ -782,3 +782,41 @@ blockquote cite {
     opacity: 0.35;
     z-index: -1;
 }
+
+/* 
+    ____________
+    ************
+    Johnny
+    ************
+    ‾‾‾‾‾‾‾‾‾‾‾‾ 
+*/
+
+.slider__item.johnny, blockquote.johnny, .stand.johnny{
+    background-color: rgba(216, 241, 253, 0.75);
+}
+
+.navigation.johnny{
+    background-color: rgba(216, 241, 253, 1);
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+}
+
+.main.johnny{
+    position: relative;
+}
+
+.main.johnny::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: center center url('../images/steel_ball_run_5.webp') no-repeat;
+    background-size: cover;
+    opacity: 0.35;
+    z-index: -1;
+}

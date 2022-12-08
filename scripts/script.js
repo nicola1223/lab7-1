@@ -16,6 +16,12 @@ $(function() {
   $(window).resize(function() {
     if ($(this).width() <= 900){
       $('.navigation__menu').css('left', `-${$('.navigation__menu').outerWidth()}px`); 
+      $('#close__menu').click(function() {
+        width = $('.navigation__menu').outerWidth()
+        $('.navigation__menu').css('transform', `translate(-${width + 0.5}px)`); 
+        // $('html').css('overflow-y', '')
+        $('#close__menu').css('display', 'none')
+      });
     }
     else {
       $('.navigation__menu').css('left', '');
